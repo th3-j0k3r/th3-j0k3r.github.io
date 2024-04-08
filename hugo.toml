@@ -6,10 +6,6 @@ theme = "hugo-blog-awesome"
 
 [menu]
   [[menu.main]]
-    # The page reference (pageRef) is useful for menu highlighting
-    # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
-
-  [[menu.main]]
     pageRef="blog"
     name = 'blog'
     url = '/blog/'
@@ -21,7 +17,7 @@ theme = "hugo-blog-awesome"
     weight = 20
   [[menu.main]]
     pageRef="notes"
-    name = 'Notes'
+    name = 'notes'
     url = '/notes/'
     weight = 30
    [[menu.main]]
@@ -30,14 +26,12 @@ theme = "hugo-blog-awesome"
     url = '/usesthis/usesthis/'
     weight = 30
    [[menu.main]]
-    pageRef="books"
-    name = 'books'
-    url = 'https://www.goodreads.com/user/show/148803922-akhil-mahendra'
+    pageRef="talks"
+    name = 'talks'
+    url = 'https://noti.st/th3j0k3r#recent'
     weight = 40
 
 googleAnalytics = '' # G-MEASUREMENT_ID
-
-
 
 
 [[params.socialIcons]]
