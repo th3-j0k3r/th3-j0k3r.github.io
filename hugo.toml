@@ -9,27 +9,30 @@ theme = "hugo-blog-awesome"
     pageRef="blog"
     name = 'blog'
     url = '/blog/'
-    weight = 20
+    weight = 10
   [[menu.main]]
     pageRef="about"
     name = 'About'
     url = '/about/'
-    weight = 20
+    weight = 30
   [[menu.main]]
     pageRef="notes"
     name = 'notes'
     url = '/notes/'
-    weight = 30
+    weight = 20
    [[menu.main]]
     pageRef="usersthis"
     name = 'Uses this'
     url = '/usesthis/usesthis/'
-    weight = 30
+    weight = 40
    [[menu.main]]
     pageRef="talks"
     name = 'talks'
     url = 'https://noti.st/th3j0k3r#recent'
-    weight = 40
+    weight = 50
+
+[params]
+mainSections = ["blog"]
 
 googleAnalytics = '' # G-MEASUREMENT_ID
 
