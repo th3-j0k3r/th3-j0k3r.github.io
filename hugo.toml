@@ -34,7 +34,7 @@ theme = "hugo-blog-awesome"
 [params]
 mainSections = ["blog"]
 
-googleAnalytics = '' # G-MEASUREMENT_ID
+googleAnalytics = 'G-9QZ1661BXG' # G-MEASUREMENT_ID
 
 
 [[params.socialIcons]]
