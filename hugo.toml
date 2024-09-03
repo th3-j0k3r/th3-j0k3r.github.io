@@ -33,6 +33,8 @@ theme = "hugo-blog-awesome"
 
 [params]
 mainSections = ["blog"]
+goToTop = true
+toc = true
 
 googleAnalytics = 'G-9QZ1661BXG' # G-MEASUREMENT_ID
 

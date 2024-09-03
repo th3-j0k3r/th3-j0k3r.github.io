@@ -5,12 +5,12 @@ draft = false
 tags = ["joern", "cpg", "ast", "pdg", "sast", "program analysis"]
 +++
 
-# Introduction
+## Introduction
 
 This blog post will explore the workings of [Joern](https://joern.io/), a static analysis tool. We will first understand the basics of program analysis before we get into how we can leverage Joern for static analysis.
 
 
-# What is AST, CFG, PDG and CPG?
+## What is AST, CFG, PDG and CPG?
 
 **Abstract Syntax Tree (AST):**  
 An AST is a hierarchical tree representation of the source code. Each node represents the statements/declarations/expressions, and an edge represents the relationship between a parent and child node.
@@ -25,7 +25,7 @@ A PDG has nodes and edges, where each node is a code statement. There are two ty
 **Code Property Graph (CPG):**  
 When we combine all these three graphs, AST, CFG and PDG, into a single graph, we will have CPG.
 
-# Installing Joern and Setup
+## Installing Joern and Setup
 
 To get started with Joern, follow these steps for installation:
 
@@ -37,7 +37,7 @@ chmod u+x joern-install.sh
 ```
 For detailed installation, refer to the official [Joern documentation](https://docs.joern.io/installation/)
 
-# Analysing vulnerable application with Joern
+## Analysing vulnerable application with Joern
 
 Once Joern is set up, we can analyse a [vulnerable Java application](https://github.com/DataDog/vulnerable-java-application). We will clone this application and start the Joern shell. Once we have the Joern shell, we first need to import the source code into Joern to create its CPG. We can do this using the following command.  
 
@@ -48,7 +48,7 @@ Once Joern is set up, we can analyse a [vulnerable Java application](https://git
 
 This command takes the path to the source code as input and generates a binary representation of the CPG. We will do all the analysis on top of the generated CPG graph.
 
-# Identifying Vulnerabilities
+## Identifying Vulnerabilities
 
 The vulnerable Java application we are analysing has an existing RCE vulnerability. Our objective is to identify the vulnerable function that an attacker can exploit. In this case, the sink is `Runtime.getRuntime().exec()`, a method that can lead to RCE vulnerabilities. We must also identify the source, a spring-based application typically tied to methods annotated with `@RequestMapping`, `@GetMapping` etc.
 
