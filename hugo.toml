@@ -12,7 +12,7 @@ theme = "hugo-blog-awesome"
     weight = 10
   [[menu.main]]
     pageRef="about"
-    name = 'About'
+    name = 'about'
     url = '/about/'
     weight = 30
   [[menu.main]]
@@ -22,7 +22,7 @@ theme = "hugo-blog-awesome"
     weight = 20
    [[menu.main]]
     pageRef="usersthis"
-    name = 'Uses this'
+    name = 'uses this'
     url = '/usesthis/usesthis/'
     weight = 40
    [[menu.main]]
@@ -35,6 +35,8 @@ theme = "hugo-blog-awesome"
 mainSections = ["blog"]
 goToTop = true
 toc = true
+primaryColor = "#ff5733"
+secondaryColor = "#33c1ff"
 
 googleAnalytics = 'G-9QZ1661BXG' # G-MEASUREMENT_ID
 
