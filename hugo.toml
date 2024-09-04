@@ -37,7 +37,6 @@ goToTop = true
 toc = true
 primaryColor = "#ff5733"
 secondaryColor = "#33c1ff"
-
 googleAnalytics = "G-9QZ1661BXG" # G-MEASUREMENT_ID
 
 [[params.socialIcons]]

@@ -40,5 +40,11 @@
     {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
     {{ template "_internal/google_analytics.html" . }}
     {{- end -}}
+    
+  {{ if .Site.Params.GoogleAnalyticsID }}
+  {{ partial "analytics-gtag.html" . }}
+  {{ end }}
+  <!-- Other meta tags, links, and scripts -->
+</head>
 
 </head>
