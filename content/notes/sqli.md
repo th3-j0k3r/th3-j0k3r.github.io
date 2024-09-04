@@ -2,6 +2,7 @@
 title = 'SQL-injection'
 date = 2014-11-10T23:23:25+05:30
 draft = false
+toc = false
 +++
 
 Note: This was written back in my collegage days, hosting it now for personal/other's reference. 

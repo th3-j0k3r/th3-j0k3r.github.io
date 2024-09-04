@@ -2,6 +2,7 @@
 title = 'Assembly'
 date = 2014-12-25T23:23:25+05:30
 draft = false
+toc = false
 +++
 
 **<span style="text-decoration:underline;">Data Types</span>**

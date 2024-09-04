@@ -2,6 +2,7 @@
 title = 'AWS'
 date = 2019-08-13T23:23:25+05:30
 draft = false
+toc = false
 +++
 
 
