@@ -1,22 +1,33 @@
-/* Table of contents */
-details {
-    cursor: pointer;
+/* Ensure the TOC is positioned on the right */
+.sidebar .toc {
+    position: fixed; /* Fix positioning to keep it on the right */
+    right: 0;        /* Align to the right edge */
+    top: 300px;          /* Align to the top */
+    width: 250px;    /* Adjust width as needed */
+    background-color: var(--theme-background); /* Match background color */
+    padding: 1rem;   /* Add padding for aesthetics */
+    z-index: 1000;   /* Ensure it sits on top of other elements */
 }
 
-.toc {
-    margin: 1.1rem 0 1rem 0;
-    padding: .5rem 1rem .5rem 1rem;
-    border-radius: .3rem;
-    background-color: $toc-bg;
+/* Remove the default arrow button for the <details> element */
+.sidebar .toc summary {
+    list-style: none; /* Remove default list styling */
+    cursor: pointer;  /* Change cursor to pointer to indicate it’s clickable */
+    font-weight: bold;
+    color: var(--theme-text); /* Match text color if needed */
+}
 
-    ul {
-        padding-top: 1rem;
-        margin-left: 1rem;
-        padding-left: 1rem;
+/* Hide the arrow marker */
+.sidebar .toc[open] summary::marker {
+    display: none; /* Hide the marker (arrow) */
+}
 
-        li {
-        margin-bottom: 0.5em;
-        line-height: 1.4;
-        }
-    }
+/* Style the TOC items to match the theme */
+.sidebar .toc a {
+    color: var(--theme-text); /* Match text color */
+    text-decoration: none;
+}
+
+.sidebar .toc a:hover {
+    text-decoration: underline;
 }

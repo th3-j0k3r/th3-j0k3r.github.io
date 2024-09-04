@@ -1,3 +1,5 @@
+<!-- Sidebar HTML Template -->
+
 {{- $toc := .Site.Params.toc -}}
 
 {{- if isset .Params "toc" -}}
@@ -5,14 +7,10 @@
 {{- end -}}
 
 {{- if $toc -}}
-    {{ $tocOpen := "" }}
-    {{ if or .Site.Params.tocOpen .Params.tocOpen }}
-        {{ if not (eq .Params.tocOpen false) }}
-            {{ $tocOpen = "open" }}
-        {{ end }}
-    {{ end }}
-    <details class="toc" {{ $tocOpen }}>
-        <summary><b>{{ T "single.table_of_contents" }}</b></summary>
-        {{ .TableOfContents }}
-    </details>
+    <aside class="sidebar">
+        <details class="toc" open>
+            <summary><b>{{ T "single.table_of_contents" }}</b></summary>
+            {{ .TableOfContents }}
+        </details>
+    </aside>
 {{- end -}}
