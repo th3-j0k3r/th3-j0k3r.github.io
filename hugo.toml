@@ -39,6 +39,10 @@ primaryColor = "#ff5733"
 secondaryColor = "#33c1ff"
 googleAnalytics = "G-9QZ1661BXG" # G-MEASUREMENT_ID
 
+[services]
+  [services.googleAnalytics]
+    ID = "G-9QZ1661BXG"
+
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/th3-j0k3r"
