@@ -11,6 +11,37 @@
         <details class="toc" open>
             <summary><b>{{ T "single.table_of_contents" }}</b></summary>
             {{ .TableOfContents }}
-        </details>
+            
+            <!-- GIF Embedding Section -->
+            <section class="gif-embed-section">
+                <a href="https://akhilmahendra.com/about" target="_blank" class="gif-link">
+                    <img src="https://i.imgur.com/HOuGDBl.gif" alt="Embedded GIF" class="embedded-gif">
+                </a>
+            </section>
+            <!-- End of GIF Embedding Section -->
+
+        </details>        
     </aside>
 {{- end -}}
+
+<!-- Add this to your CSS file to style the GIF embedding section -->
+<style>
+    .gif-embed-section {
+        margin-top: 20px; /* Adjust spacing as needed */
+        text-align: center; /* Center the GIF if desired */
+    }
+
+    .embedded-gif {
+        max-width: 100%; /* Ensure the GIF fits within the sidebar */
+        height: auto;
+    }
+
+    .gif-link {
+        display: block;
+        text-decoration: none; /* Remove underline if desired */
+    }
+
+    .gif-link img {
+        border: none; /* Remove border if desired */
+    }
+</style>
