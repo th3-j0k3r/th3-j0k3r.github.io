@@ -1,5 +1,5 @@
 +++
-title = 'High Agency
+title = 'High Agency'
 date = 2025-04-09T23:23:25+05:30
 draft = false
 toc = false
