@@ -32,7 +32,7 @@ theme = "hugo-blog-awesome"
     weight = 50
 
 [params]
-mainSections = ["blog"]
+mainSections = ["blog", "notes"]
 goToTop = true
 toc = true
 primaryColor = "#ff5733"
