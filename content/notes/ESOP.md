@@ -62,5 +62,5 @@ If the employee does not exercise their options within the exercise period, the 
 * [https://www.capitalmind.in/2021/01/taxation-ltcg-stcg-basics/](https://www.capitalmind.in/2021/01/taxation-ltcg-stcg-basics/)
 * [https://www.youtube.com/watch?v=1x3j2cSYLKU](https://www.youtube.com/watch?v=1x3j2cSYLKU)
 * [https://www.youtube.com/watch?v=oDirNOa_SPc](https://www.youtube.com/watch?v=oDirNOa_SPc)
-
+* [https://www.indexventures.com/rewarding-talent/appendix](https://www.indexventures.com/rewarding-talent/appendix)
 
