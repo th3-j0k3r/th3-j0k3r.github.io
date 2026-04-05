@@ -31,6 +31,12 @@ theme = "hugo-blog-awesome"
     url = 'https://noti.st/th3j0k3r#recent'
     weight = 50
 
+[outputs]
+home = ["HTML"]
+section = ["HTML"]
+taxonomy = ["HTML"]
+term = ["HTML"]
+
 [params]
 mainSections = ["blog"]
 goToTop = true

@@ -5,6 +5,8 @@
     top: 20%;      /* Align to the top */
     width: 250px;    /* Adjust width as needed */
     background-color: rgba(255, 255, 255, 0); /* Make background transparent */
+    max-height: 75vh; /* Prevent TOC from overflowing viewport */
+    overflow-y: auto; /* Enable scrolling for long TOCs */
     padding: 1rem;   /* Add padding for aesthetics */
     z-index: 1000;   /* Ensure it sits on top of other elements */
 }
